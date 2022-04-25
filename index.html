@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="header pt-3 pb-3">
+        <div class="container">
+            <div class="header-top d-flex justify-content-between">
+                <a href="#" class="header__logo">
+                    <img src="./images/header-logo.svg" alt="header logo" class="logo">
+                </a>
+                <div class="header__icons">
+                    <a href="#" class="social"><img src="./images/telegram.svg" alt="telegram" class="telegram"></a>
+                    <a href="#" class="social mx-sm-3 mx-lg-4"><img src="./images/facebook.svg" alt="facebook" class="facebook"></a>
+                    <a href="#" class="social"><img src="./images/instagram.svg" alt="instagram" class="instagram"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom">
+       <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Programs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Contracts</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">About</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <label class="wrapper d-flex align-items-center">
+                    <input class="input-nav me-2" type="text" placeholder="Search" aria-label="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </label>
+                </form>
+              </div>
+            </div>
+          </nav>
+       </div>
+    </div>
+    <main class="main">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <h1 class="text-center main__title">
+                      Grants uz <br>    
+                      <img class="title-img" src="./images/Conquer the world with knowledge.svg" alt="">
+                    </h1>
+                <img src="./images/main-bg.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <h1 class="text-center main__title">
+                    Grants uz <br>
+                    <img class="title-img" src="./images/Conquer the world with knowledge.svg" alt="">
+                </h1>
+                <img src="./images/main-bg.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <h1 class="text-center main__title">
+                    Grants uz <br>
+                    <img class="title-img" src="./images/Conquer the world with knowledge.svg" alt="">
+                </h1>
+                <img src="./images/main-bg.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true">
+                <i class="fa-solid fa-angle-left"></i>
+              </span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true">
+                <i class="fa-solid fa-angle-right"></i>
+              </span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </main>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
