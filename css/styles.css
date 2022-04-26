@@ -3,6 +3,14 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
+#owl-demo .item{
+    margin: 3px;
+  }
+  #owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 
 .header-bottom {
     background-color: #004897;
